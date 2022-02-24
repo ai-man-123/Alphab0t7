@@ -48,9 +48,9 @@ const starts = async (alpha = new WAConnection()) => {
 		try {
 			falfa = { key: {fromMe: false,participant: "0@s.whatsapp.net",
 		remoteJid: "0@s.whatsapp.net"},
-message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us",
-"inviteCode": "mememteeeekkeke","groupName": "Alphabot", 
-"caption": `Made With ❣️`, 'jpegThumbnail': fs.readFileSync(`image/${setting.thumb}`)
+message: {"groupInviteMessage": {"groupJid": "60102810046-1616169743@g.us",
+"inviteCode": "mememteeeekkeke","groupName": "Aiman", 
+"caption": `Made With aiman`, 'jpegThumbnail': fs.readFileSync(`image/${setting.thumb}`)
 }}}
          const mdata = await alpha.groupMetadata(anu.jid)
 		console.log(anu)
